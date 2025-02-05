@@ -12,7 +12,7 @@ import {
   DialogHeader,
 } from "@/components/ui/dialog";
 
-import { chatSession } from "@/sevices/AIModal";
+import { chatSession } from "@/services/AIModal";
 import { useEffect, useState } from "react";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 import { toast } from "sonner";
@@ -20,10 +20,10 @@ import { FcGoogle } from "react-icons/fc";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { doc, setDoc } from "firebase/firestore";
-import { db } from "@/sevices/firebaseconfig";
+import { db } from "@/services/firebaseconfig";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import { firebaceconfig } from "@/sevices/firebaseconfig";
+import { firebaceconfig } from "@/services/firebaseconfig";
 
 export const CreateTrip = () => {
   const [place, setPlace] = useState([]);

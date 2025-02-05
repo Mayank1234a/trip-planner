@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ImLocation } from "react-icons/im";
 import { useEffect, useState } from "react";
-import { getPlaceDetails, PHOTO_REF_URL } from "@/sevices/GlobalApi";
+import { getPlaceDetails, PHOTO_REF_URL } from "@/services/GlobalApi";
 
 const PlaceCardItem = ({ activity }) => {
   const [photoUrl, setPhotoUrl] = useState();

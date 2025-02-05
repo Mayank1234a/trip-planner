@@ -1,4 +1,4 @@
-import { getPlaceDetails, PHOTO_REF_URL } from "@/sevices/GlobalApi";
+import { getPlaceDetails, PHOTO_REF_URL } from "@/services/GlobalApi";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 

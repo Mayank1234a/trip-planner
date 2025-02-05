@@ -1,4 +1,4 @@
-import { db } from "@/sevices/firebaseConfig";
+import { db } from "@/services/firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";

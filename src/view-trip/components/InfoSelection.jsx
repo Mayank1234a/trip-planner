@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { getPlaceDetails, PHOTO_REF_URL } from "@/sevices/GlobalApi";
+import { getPlaceDetails, PHOTO_REF_URL } from "@/services/GlobalApi";
 import { useEffect, useState } from "react";
 import { IoIosSend } from "react-icons/io";
 
