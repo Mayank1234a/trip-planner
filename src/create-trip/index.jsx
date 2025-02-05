@@ -23,6 +23,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { db } from "@/sevices/firebaseconfig";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import { firebaceconfig } from "@/sevices/firebaseconfig";
 
 export const CreateTrip = () => {
   const [place, setPlace] = useState([]);
