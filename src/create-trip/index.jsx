@@ -20,10 +20,9 @@ import { FcGoogle } from "react-icons/fc";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { doc, setDoc } from "firebase/firestore";
-import { db } from "@/services/firebaseconfig";
+import { db } from "@/services/firebaseConfig";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import { firebaseConfig } from "@/services/firebaseconfig";
 
 export const CreateTrip = () => {
   const [place, setPlace] = useState([]);
