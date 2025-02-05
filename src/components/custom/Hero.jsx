@@ -1,7 +1,6 @@
-import React from "react";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
-import Header from "./Header";
+
 
 const Hero = () => {
   return (
@@ -19,6 +18,7 @@ const Hero = () => {
       <Link to="/create-trip">
         <Button className="text-lg">Get Started, It&apos;s Free</Button>
       </Link>
+      <img src="/public/tripplanner.png"  />
     </div>
   );
 };
