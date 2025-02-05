@@ -18,7 +18,7 @@ const Hero = () => {
       <Link to="/create-trip">
         <Button className="text-lg">Get Started, It&apos;s Free</Button>
       </Link>
-      <img src="/public/tripplanner.png"  />
+      <img src="/public/tripplanner.png" className="-mt-35" />
     </div>
   );
 };
